@@ -35,12 +35,12 @@ def test_check_title(browser):
 
 # Test step 2 - Check Home Link Present
 def test_home_link(browser):
-    assert browser.find_element_by_id("Homes")
+    assert browser.find_element_by_id("Home")
 
 
 # Test step 3 - Check About Us Link Present
 def test_about_link(browser):
-    assert browser.find_element_by_id("About Uss")
+    assert browser.find_element_by_id("About Us")
 
 
 # Test step 4 - Check Product Link Present
